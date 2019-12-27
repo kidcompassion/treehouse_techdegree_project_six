@@ -1,10 +1,14 @@
+body {
+  background-color: #F0CFB9;
+}
+
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Karla', serif;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Karla', serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -27,15 +31,27 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #fff;
 }
 
 .button{
-  background-color: #333;
+  background-color: #01D1BF;
+  color: #fff;
+  border: solid 1px #A9DFCE;
+  transition: all 0.5s;
 }
 
 .button:hover{
-  background-color: #111;
+  border: solid 1px #333;
+  color: #333;
+  background-color:transparent;
+  transition: all 0.5s;
+  box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.51);
+}
+
+.button:active, .button:focus {
+  background-color: #FF4653;
+  color: white;
 }
 
 a{
@@ -58,34 +74,52 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #FF4653;
   color: #fff;
   box-shadow: none !important;
 }
 
-  .portfolio-me p{
+.portfolio-me .thumbnail{
+  transition: all 0.5s;
+}
+
+
+.portfolio-me .thumbnail:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+  
+.portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #fff;
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #fff;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
+    padding: 10px;
+    background-color: #01D1BF;
+    border: solid 1px #A9DFCE;
+    transition: all 0.5s;
+
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #ffffff;
+    border: solid 1px #fff;
+    background-color: transparent;
+    transition: all 0.5s;
+    box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.51);
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
 }
 
  .portfolio-breadcrumb a{
@@ -103,7 +137,8 @@ a:hover{
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
+  color: #333;
+  border-bottom: 1px solid #fff;
   padding-bottom: 40px;
 }
 
@@ -112,9 +147,16 @@ a:hover{
   padding: 10px 50px;
 }
 
-  .portfolio-index .thumbnail{
-    margin-bottom: 5px;
-  }
+.portfolio-index .thumbnail{
+  margin-bottom: 5px;
+  transition: all 0.5s;
+}
+
+.portfolio-index .thumbnail:hover{
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+  
 
   .portfolio-index a{
     color: #222;
@@ -138,6 +180,7 @@ a:hover{
 
 .portfolio-project p{
   border: none;
+  color: #333;
 }
 
 .portfolio-project li{
@@ -147,4 +190,16 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.error{
+  background-color: #FF4653;
+  border: solid 1px white;
+  padding: 20px;  
+  word-wrap: break-word;
+  color: #fff;
+}
+
+.error p {
+  color: #e5e5e5;
 }

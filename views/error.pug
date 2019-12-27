@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    article.grid-container.portfolio-intro
+        .grid-x
+            .cell.small-12.medium-12.large-12.error
+                h1= error.status
+                h2= `Unfortunately, what you're looking for is ${error.message}`
+                p= error.stack

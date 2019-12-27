@@ -2,63 +2,53 @@
     [
         {
             "id": 0,
-            "project_name": "Cupcake ipsum",
+            "project_name": "Random Quote Generator",
             "description": "Cupcake ipsum dolor sit amet gummi bears donut tart. Gummi bears sweet roll cookie tart. Bear claw candy canes cotton candy pudding. Liquorice pudding chocolate dessert caramels sweet. Jelly-o croissant chocolate cake lollipop oat cake tart topping croissant brownie. Jelly beans pie marzipan chocolate tootsie roll fruitcake croissant wafer. Jelly dessert dragée caramels muffin candy canes oat cake. Cookie cake wafer chocolate cake sweet topping. Candy icing dragée. Fruitcake gummies muffin marzipan cake. Chocolate chocolate topping jujubes icing. Marshmallow tiramisu bonbon bear claw tart icing lollipop. Jelly beans pie sugar plum cotton candy halvah carrot cake dessert gummi bears chocolate.",
             "technologies": ["pink", "red", "green", "purple"],
             "live_link": "http://google.com",
             "github_link": "http://google.com",
-            "image_urls": ["https://via.placeholder.com/150", "https://via.placeholder.com/150"]
+            "image_urls": ["/static/images/full-project--project__1.jpg", "https://via.placeholder.com/150"],
+            "thumb_url": "/static/images/thumb--project__1.jpg"
         },
         {
             "id": 1,
-            "project_name": "Samuel L. Ipsum",
+            "project_name": "List Pagination and Filtering",
             "description": "Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.",
             "technologies": ["one", "two"],
             "live_link": "http://google.com",
             "github_link": "http://google.com",
-            "image_urls": ["https://via.placeholder.com/150", "https://via.placeholder.com/150"]
+            "image_urls": ["/static/images/full-project--project__2.jpg", "https://via.placeholder.com/150"],
+            "thumb_url": "/static/images/thumb--project__2.jpg"
         },
         {
             "id": 2,
-            "project_name": "Bacon Ipsum",
+            "project_name": "Interactive Form",
             "description": "Bacon ipsum dolor amet pork loin tongue bresaola strip steak. Tail landjaeger corned beef leberkas, buffalo bacon biltong pork belly boudin shank porchetta. Burgdoggen chislic buffalo ball tip short loin. Kevin boudin pancetta sausage fatback. Porchetta jowl prosciutto turkey, drumstick hamburger beef chuck biltong frankfurter shank pastrami rump. Bacon leberkas chuck venison strip steak jowl tenderloin fatback jerky short ribs brisket sausage.",
             "technologies": ["un", "deux", "trois"],
             "live_link": "http://google.com",
             "github_link": "http://google.com",
-            "image_urls": ["https://via.placeholder.com/150", "https://via.placeholder.com/150"]
+            "image_urls": ["/static/images/full-project--project__3.jpg", "https://via.placeholder.com/250"],
+            "thumb_url": "/static/images/thumb--project__3.jpg"
         },
         {
             "id": 3,
-            "project_name": "Zombie Ipsum",
+            "project_name": "OOP Game Show App",
             "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.",
             "technologies": ["zomb", "runner five"],
             "live_link": "http://google.com",
             "github_link": "http://google.com",
-            "image_urls": ["https://via.placeholder.com/150", "https://via.placeholder.com/150"]
+            "image_urls": ["/static/images/full-project--project__4.jpg", "https://via.placeholder.com/150"],
+            "thumb_url": "/static/images/thumb--project__4.jpg"
         },
         {
             "id": 4,
-            "project_name": "The Vatican Assassin Ipsum",
-            "description": "HTML element type:Number of elements:Number of sentences per element:
-            No, you won't get high .... It's all good. It's all good, guys. Quit
-            panicking. Quit panicking. No panic, no judgment. And you know, to sully
-            and to contaminate or radically disrespect this union with a shameful
-            contract is something I'll leave to the amateurs and the bible grippers. 
-            But ... whatever. I agreed to do it. There's just one deal point that Jim
-            Robinson - a wonderful man at Morgan Creek, a great company - need to work
-            out is they want me in it. If they do, it's a smash. If they don't, it's a
-            turd that opens on a tugboat. And you know, I'm tired ... I'm so tired of
-            pretending like my life isn't perfect and bitchin' and just winning every
-            second .... And I'm not perfect and bitchin', and just delivering the goods
-            at every frickin' turn. And Alex, try to get your mind around this, as a
-            fellow warrior, deep in the trenches: Their entire manifesto is built upon
-            complete and total surrender ... or the concept of complete and total
-            surrender.",
+            "project_name": "Public API Requests",
+            "description": "No, you won't get high",
             "technologies": ["winning", "tiger blood"],
             "live_link": "http://google.com",
             "github_link": "http://google.com",
-            "image_urls": ["https://via.placeholder.com/150", "https://via.placeholder.com/150"]
+            "image_urls": ["/static/images/full-project--project__5.jpg", "https://via.placeholder.com/150"],
+            "thumb_url": "/static/images/thumb--project__5.jpg"
         }
     ]
-
-} 
+}

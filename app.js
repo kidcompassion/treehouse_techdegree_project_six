@@ -1,43 +1,33 @@
 const express = require('express');
 const app = express();
+
+// Using this because the standard static server doesn;t render elems correctly in chrome
+const path = require('path');
 const port = 3000;
+const router = express.Router();
+app.use(express.static(path.join(__dirname, 'public')));
 
-
-
-
+app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 
+const mainRoutes = require('./routes');
+const projectRoutes = require('./routes/projects');
+
+app.use(mainRoutes);
+app.use('/projects',projectRoutes);
 
 
-app.get('/', (req, res)=>{
-   res.send('bleep bloop');
+app.use((req, res, next) => {
+    const err = new Error('Not Found');
+    err.status = 404;
+    next(err);
 });
 
-app.get('/about-me', (req, res)=>{
-    res.send('about me');
+app.use((err, req, res, next)=>{
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error', err);
 });
-
-app.get('/project-one', (req, res)=>{
-    res.send('proj one');
-});
-
-app.get('/project-two', (req, res)=>{
-    res.send('proj two');
-});
-
-app.get('/project-three', (req, res)=>{
-    res.send('proj three');
-});
-
-app.get('/project-four', (req, res)=>{
-    res.send('proj four');
-});
-
-app.get('/project-five', (req, res)=>{
-    res.send('proj five');
-});
-
-
 
 app.listen(port, ()=>{
     console.log('running');
