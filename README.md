@@ -23,6 +23,14 @@ To meet the general project criteria, I've included:
 
 
 
+
+TODO
+add links to individual sites
+comment js
+
+
+
+
 To meet the exceeds expectation criteria, I've included:
 
 * An error.pug template, with custom styles, which shows error.status, error.message and error.stack messages.
