@@ -1,26 +1,25 @@
+/**
+ * Main routes
+ * Features all top-level routes
+ *  */ 
+
 const express = require('express');
 const router = express.Router();
+
+// Set up data file
 const data  = require('../data.json');
+
+// Prepare data file for templates
 const {projects} = data;
 
-
-
-
-//what do i need to do here?
-// i need to loop through all projects and render a thumbnail, title and a link
-
+// Render index template at root and pass it the projects data
 router.get('/', (req, res)=>{
-   
-   
-    //const projectThumb = projects[id]['thumb_url'];
     res.render('index', {projects});
 });
 
+// Render about template at /about
 router.get('/about', (req, res)=>{
     res.render('about');
 });
-
-
-
 
 module.exports = router;

@@ -7,8 +7,8 @@
             "technologies": ["JavaScript", "Arrays", "Objects"],
             "live_link": "https://kidcompassion.github.io/treehouse_techdegree_project_one/",
             "github_link": "https://github.com/kidcompassion/treehouse_techdegree_project_one",
-            "image_urls": ["/static/images/full-project--project__1.jpg", "/static/images/full-project---code_project_1.jpg", "/static/images/full-project---secondary_project_1.jpg"],
-            "thumb_url": "/static/images/thumb--project__1.jpg"
+            "image_urls": ["full-project--project__1.jpg", "full-project---code_project_1.jpg", "full-project---secondary_project_1.jpg"],
+            "thumb_url": "thumb--project__1.jpg"
         },
         {
             "id": 1,
@@ -17,8 +17,8 @@
             "technologies": ["Pagination", "JavaScript"],
             "live_link": "https://kidcompassion.github.io/treehouse_techdegree_project_two/",
             "github_link": "https://github.com/kidcompassion/treehouse_techdegree_project_two",
-            "image_urls": ["/static/images/full-project--project__2.jpg", "/static/images/full-project---secondary_project_2.jpg", "/static/images/full-project---secondary_project_2a.jpg", "/static/images/full-project---code_project_2.jpg"],
-            "thumb_url": "/static/images/thumb--project__2.jpg"
+            "image_urls": ["full-project--project__2.jpg", "full-project---secondary_project_2.jpg", "full-project---secondary_project_2a.jpg", "full-project---code_project_2.jpg"],
+            "thumb_url": "thumb--project__2.jpg"
         },
         {
             "id": 2,
@@ -27,8 +27,8 @@
             "technologies": ["JavaScript", "jQuery", "Error Handling"],
             "live_link": "https://kidcompassion.github.io/treehouse_techdegree_project_three/",
             "github_link": "https://github.com/kidcompassion/treehouse_techdegree_project_three",
-            "image_urls": ["/static/images/full-project--project__3.jpg", "/static/images/full-project---code_project_3.jpg", "/static/images/full-project---secondary_project_3.jpg", "/static/images/full-project---secondary_project_3a.jpg", "/static/images/full-project---secondary_project_3b.jpg"],
-            "thumb_url": "/static/images/thumb--project__3.jpg"
+            "image_urls": ["full-project--project__3.jpg", "full-project---code_project_3.jpg", "full-project---secondary_project_3.jpg", "full-project---secondary_project_3a.jpg", "full-project---secondary_project_3b.jpg"],
+            "thumb_url": "thumb--project__3.jpg"
         },
         {
             "id": 3,
@@ -37,8 +37,8 @@
             "technologies": ["Object-oriented", "JavaScript"],
             "live_link": "https://kidcompassion.github.io/treehouse_techdegree_project_four/",
             "github_link": "https://github.com/kidcompassion/treehouse_techdegree_project_four",
-            "image_urls": ["/static/images/full-project--project__4.jpg", "/static/images/full-project---secondary_project_4.jpg", "/static/images/full-project---secondary_project_4a.jpg", "/static/images/full-project---code_project_4.jpg"],
-            "thumb_url": "/static/images/thumb--project__4.jpg"
+            "image_urls": ["full-project--project__4.jpg", "full-project---secondary_project_4.jpg", "full-project---secondary_project_4a.jpg", "full-project---code_project_4.jpg"],
+            "thumb_url": "thumb--project__4.jpg"
         },
         {
             "id": 4,
@@ -47,8 +47,8 @@
             "technologies": ["APIs", "modals", "JavaScript", "Search"],
             "live_link": "https://kidcompassion.github.io/treehouse_techdegree_project_five/",
             "github_link": "https://github.com/kidcompassion/treehouse_techdegree_project_five",
-            "image_urls": ["/static/images/full-project--project__5.jpg", "/static/images/full-project---code_project_5.jpg", "/static/images/full-project---secondary_project_5.jpg", "/static/images/full-project---secondary_project_5a.jpg"],
-            "thumb_url": "/static/images/thumb--project__5.jpg"
+            "image_urls": ["full-project--project__5.jpg", "full-project---code_project_5.jpg", "full-project---secondary_project_5.jpg", "full-project---secondary_project_5a.jpg"],
+            "thumb_url": "thumb--project__5.jpg"
         }
     ]
 }
